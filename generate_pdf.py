@@ -34,6 +34,7 @@ def split_lyrics(raw):
 def generate_pdf():
     data = request.get_json()
     lyrics = data.get("lyrics", "")
+    print("🔥 수신한 lyrics 내용:", lyrics)    
     sections = split_lyrics(lyrics)
 
     buffer = BytesIO()
