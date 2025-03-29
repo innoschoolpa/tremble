@@ -10,7 +10,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 import os
 
 app = Flask(__name__)
-
+CORS(app) 
 @app.route("/", methods=["GET"])
 def index():
     return "떨림 PDF API 서버가 작동 중입니다. /generate 로 POST 요청하세요."
