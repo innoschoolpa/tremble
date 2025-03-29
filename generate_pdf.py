@@ -1,3 +1,4 @@
+from flask_cors import CORS
 from flask import Flask, request, send_file
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
