@@ -1,0 +1,12 @@
+떨림 - 가사 PDF 생성기
+
+[사용법]
+1. 이 폴더를 웹서버의 /tremble 경로에 업로드하세요.
+2. 브라우저에서 https://innoschool.com/tremble 접속
+3. 여러 곡 가사를 붙여넣고 [PDF 생성] 클릭
+4. 표지 + 목차 + 본문(2단) 구조로 PDF가 다운로드됩니다.
+
+[주의사항]
+- 가사 입력 형식: 반드시 "1. 제목", "2. 제목"과 같은 번호 + 제목 형식
+- PDF 생성기는 외부 API (https://tremble-pdf-api.onrender.com/generate)를 사용합니다.
+- 한글 폰트는 NanumGothic이 자동 적용되어 깨지지 않습니다.
